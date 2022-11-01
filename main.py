@@ -3,7 +3,8 @@ class Dog:
         self.name = name
 
     def __str__(self):
-        return "❌"
+        print(super().__str__())
+        return f"Dog : {self.name}"
 
 
 jia = Dog("jia")
