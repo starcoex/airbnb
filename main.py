@@ -1,27 +1,14 @@
-
-class Human:
-    def __init__(self, name):
-        print("human initialized")
-        self.name = name
-
-    def say_Hello(self):
-        print(f"hello my name is {self.name}")
+class Dog:
+    def woof(self):
+        print("woof woof")
 
 
-class Player(Human):
-    def __init__(self, name, xp):
-        super().__init__(name)
-        self.xp = xp
+class Beagle(Dog):
+    def woof(self):
+        super().woof()
+        print("super jump")
 
 
-class Fan(Human):
-    def __init__(self, name, fav_team):
-        super().__init__(name)
-        self.fav_team: fav_team
-
-
-nico = Player("nico", 20)
-print(nico.name)
-nico.say_Hello()
-ko = Fan("Ko", "21")
-ko.say_Hello()
+beagle = Beagle()
+# beagle.jump()
+beagle.woof()
