@@ -1,0 +1,14 @@
+==> Searching for similarly named formulae...
+These similarly named formulae were found:
+cabal-install
+fabric-installer
+ideviceinstaller
+install-peerdeps
+pyinstaller
+quilt-installer
+ruby-install
+zero-install
+instead
+To install one of them, run (for example):
+  brew install cabal-install
+==> Searching for a previously deleted formula (in the last month)...
