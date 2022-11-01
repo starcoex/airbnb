@@ -1,14 +1,10 @@
 class Dog:
-    def woof(self):
-        print("woof woof")
+    def __init__(self, name):
+        self.name = name
+
+    def __str__(self):
+        return "❌"
 
 
-class Beagle(Dog):
-    def woof(self):
-        super().woof()
-        print("super jump")
-
-
-beagle = Beagle()
-# beagle.jump()
-beagle.woof()
+jia = Dog("jia")
+print(jia)
